@@ -2,6 +2,6 @@
 <!-- Vue de FLEREAU Jonathan --> 
 <html>
 	<body>
-		<h1 style="text-align:center;"> {{$a = 'Page FLEREAU Jonathan pour le poste de Développeur Web'}} </h1>
+		<h1 style="text-align:center;color:blue"> {{ $titre }} </h1>
 	</body>
 </html>

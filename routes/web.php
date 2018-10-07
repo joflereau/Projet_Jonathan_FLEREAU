@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Web Route FLEREAU Jonathan
+| Web Routes
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
@@ -11,4 +11,4 @@
 |
 */
 
-Route::view('/', 'RouteFlereau');
+Route::get('/', 'UserController@message');
